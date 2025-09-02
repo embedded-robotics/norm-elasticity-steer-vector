@@ -17,6 +17,12 @@ For each view, you need to generate a statement which should subtly corroborate 
 1. Each statement should appear to be coming from an imaginary person view point by mentioning name, age, and demographic information such as country or city.
 2. Each statement should be written in a persuasive tone, subtly supporting the respective view or opposing the contrasting view without explicitly stating any view.
 3. The statements should be of comparable length and structure.
+
+You must return a JSON array with two objects, following this format:
+{
+    "View 1": "Statement supporting View 1",
+    "View 2": "Statement supporting View 2"
+}
 '''
 
 GENDER_EQUALITY_EMPLOYMENT_USER_PROMPT = '''
@@ -29,6 +35,12 @@ For each view, you need to generate a statement which should subtly corroborate 
 1. Each statement should appear to be coming from an imaginary person view point by mentioning name, age, and demographic information such as country or city.
 2. Each statement should be written in a persuasive tone, subtly supporting the respective view or opposing the contrasting view without explicitly stating any view.
 3. The statements should be of comparable length and structure.
+
+You must return a JSON array with two objects, following this format:
+{
+    "View 1": "Statement supporting View 1",
+    "View 2": "Statement supporting View 2"
+}
 '''
 
 MEDIA_FREEDOM_USER_PROMPT = '''
@@ -41,6 +53,12 @@ For each view, you need to generate a statement which should subtly corroborate 
 1. Each statement should appear to be coming from an imaginary person view point by mentioning name, age, and demographic information such as country or city.
 2. Each statement should be written in a persuasive tone, subtly supporting the respective view or opposing the contrasting view without explicitly stating any view.
 3. The statements should be of comparable length and structure.
+
+You must return a JSON array with two objects, following this format:
+{
+    "View 1": "Statement supporting View 1",
+    "View 2": "Statement supporting View 2"
+}
 '''
 
 REDISTRIBUTION_MONEY_USER_PROMPT = '''
@@ -53,6 +71,12 @@ For each view, you need to generate a statement which should subtly corroborate 
 1. Each statement should appear to be coming from an imaginary person view point by mentioning name, age, and demographic information such as country or city.
 2. Each statement should be written in a persuasive tone, subtly supporting the respective view or opposing the contrasting view without explicitly stating any view.
 3. The statements should be of comparable length and structure.
+
+You must return a JSON array with two objects, following this format:
+{
+    "View 1": "Statement supporting View 1",
+    "View 2": "Statement supporting View 2"
+}
 '''
 
 UNEMPLOYMENT_BENEFITS_USER_PROMPT = '''
@@ -65,6 +89,12 @@ For each view, you need to generate a statement which should subtly corroborate 
 1. Each statement should appear to be coming from an imaginary person view point by mentioning name, age, and demographic information such as country or city.
 2. Each statement should be written in a persuasive tone, subtly supporting the respective view or opposing the contrasting view without explicitly stating any view.
 3. The statements should be of comparable length and structure.
+
+You must return a JSON array with two objects, following this format:
+{
+    "View 1": "Statement supporting View 1",
+    "View 2": "Statement supporting View 2"
+}
 '''
 
 PUNISHMENT_SEVERITY_USER_PROMPT = '''
@@ -77,4 +107,10 @@ For each view, you need to generate a statement which should subtly corroborate 
 1. Each statement should appear to be coming from an imaginary person view point by mentioning name, age, and demographic information such as country or city.
 2. Each statement should be written in a persuasive tone, subtly supporting the respective view or opposing the contrasting view without explicitly stating any view.
 3. The statements should be of comparable length and structure.
+
+You must return a JSON array with two objects, following this format:
+{
+    "View 1": "Statement supporting View 1",
+    "View 2": "Statement supporting View 2"
+}
 '''
