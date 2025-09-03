@@ -7,7 +7,7 @@ SYSTEM_PROMPTS={
     "PUNISHMENT_SEVERITY": "You are a helpful assistant that specializes in making policy related to severity of punishment for crimes."
 }
 
-POITICAL_USER_PROMPT = '''
+POLITICAL_LEADERSHIP_EQUALITY_USER_PROMPT = '''
 You are given two contrasting views related to Political Leadership Equality:
 
 View 1: Men make better political leaders than women do.
